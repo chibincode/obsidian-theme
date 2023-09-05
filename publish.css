@@ -3891,7 +3891,8 @@ CUSTOM/READABLE LINE WIDTH
 
 .is-readable-line-width .markdown-preview-section {
   margin: 0 10px;
-  width: var(--line-width);
+  /* width: var(--line-width); */ 
+  /* 为了移动端能显示正常 被我注释了 2023-09-05 */
   max-width: var(--max-width);
 }
 
